@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "diagramsfdceea0f": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "s3diagrams": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
